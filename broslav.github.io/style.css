@@ -1,0 +1,378 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:Arial,Tahoma,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px}body{margin:0;padding:0;font:1em/1.4em sans-serif;color:#353535}
+/*Copyright www.Master-CSS.com*/.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0;}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px;}
+
+body{
+  font: 1em/1.6em Open Sans , Arial, Tahoma, sans-serif;
+  color: #353535;
+  background-image: url(pitimg/spb.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+h1, h2, h3, h4{
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1em;
+}
+.mid{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.mid__min{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.vidres{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.vidres iframe, .vidres embed, .vidres object{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+
+.head{
+  background: url(pitimg/saintpet11.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+}
+.darkbg{
+  background: rgba(40, 76, 88, 0.498039);
+}
+.bg__white{
+  background: #fff;
+}
+.pay{
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+.pay__link{
+  color: #ffffff;
+  font-size: 18px;
+  background: #db0000;
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px #000;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.pay__link:hover{
+  background: #c10000;
+}
+.pay__link:active{
+  box-shadow: inset 0 0 11px #670000;
+}
+.header__h1{
+  padding-top: 200px;
+  text-align: center;
+  font-size: 36px;
+}
+.header__desc{
+  margin-top: 10px;
+  padding: 0;
+}
+.header__min{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.header__post{
+  padding: 0;
+  padding-bottom: 200px;
+  margin: 0;
+  font-size: 24px;
+}
+.btn__big{
+  /*padding: 20px 40px;*/
+  font-size: 28px;
+}
+.direct, .profit, .result, .timer{
+  padding: 40px 0;
+  background: #fff;
+  text-align: center;
+}
+.direct__h2, .profit__h3, .result__h3, .review__h3, .me__h3{
+  font-size:32px;
+}
+.direct__desc{
+  font-size: 18px;
+}
+.red{
+  color: red;
+}
+.profit__block,
+.result__block{
+  float: left;
+  width: 30%;
+  text-align: left;
+
+}
+.profit__desc{
+  margin: 0 0 60px;
+}
+.profit__block--center,
+.result__block--center{
+  margin: 0 5%;
+}
+.profit__img,
+.result__img{
+  float: left;
+}
+.profit__h4,
+.result__h4,{
+  text-align: left;
+  font-size: 19px;
+  margin: 0 0 0 74px;
+}
+.profit__p,
+.result__p{
+  margin: 10px 0 0 74px;
+}
+.result__h3{
+  margin: 0 0 60px;
+}
+.timer__img{
+  float: left;
+  margin: 0 20px 0 0;
+}
+.timer__h4{
+  font-size: 24px;
+  text-align: left;
+}
+.timer__block{
+  text-align: left;
+}
+.timer__p{
+  font-size: 19px;
+  text-align: left;
+  margin: 0;
+}
+.timer__block{
+  text-align: center;
+  height: 100px;
+  line-height:100px;
+}
+.timer__min{
+  margin: 0;
+}
+.review{
+  padding: 40px 0;
+
+}
+.review__h3, .review__desc, .review__name{
+  color: #ffffff;
+}
+.review__block{
+   float: left;
+   width:48%;
+    text-align: left;
+   margin-bottom: 50px;
+ }
+.review__block p{
+  margin: 0;
+}
+.review__image{
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px #000;
+}
+.review__block--left__side{
+  margin-right: 4%;
+
+}
+.review__footer{
+  float: left;
+
+}
+.review__content{
+  float: right;
+  width: 70%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.review__name{
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 2px #000;
+
+}
+.me{
+  text-align: left;
+  padding-top: 40px;
+}
+.me__img{
+  float: left;
+  margin: 0 40px 0 0;
+}
+.me__h3{
+  text-align: left;
+  margin: 0 0 10px 0 ;
+}
+.me__p{
+  text-align: left;
+  font-size: 20px;
+  margin: 0;
+}
+.me__p--two{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.more{
+  padding-top: 30px;
+}
+.more__left{
+  width: 38%;
+  float: left;
+}
+.more__right{
+  width: 60%;
+  float: right;
+}
+.more__h4 {
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.pay__link--more{
+  text-align: left;
+  margin-left: 30px;
+}
+.foot{
+  padding: 50px 0;
+}
+.foot__left{
+  text-align: left;
+  float: left;
+  width: 50%;
+
+}
+.foot__right{
+  text-align: right;
+  float: right;
+  width: 50%;
+}
+.foot__p{
+  margin: 0;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1160px){
+  .mid{
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .profit__block, .result__block, .review__block, .more__left, .more__right{
+
+    width: 100%;
+    padding-top: 20px;
+  }
+  .profit__block--center,
+  .result__block--center,
+  .review__block--left__side{
+    margin: 0;
+    margin-bottom: 0;
+  }
+  .review__block{
+    margin-bottom: 0;
+  }
+  .more__h4, .pay__link--more{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px){
+.mid{
+  margin: 0 20px;
+}
+  .timer__img{
+    float: none;
+  }
+  .timer__h4{
+    font-size: 23px;
+  }
+  .timer__p{
+    margin-left: 5%;
+  }
+  .timer__block{
+     width: 150px;
+     margin-left: 22%;
+   }
+  .timer__min{
+    width: 64%;
+  }
+  .btn__big{
+    font-size: 23px;
+  }
+  .pay__link{
+    font-size: 17px;
+  }
+  .pay__link--more{
+    margin: 0 auto;
+}
+@media screen and (max-width: 320px){
+  .timer_img, .timer__h4, .timer__p, .timer__block, .timer__min{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .btn__big{
+    font-size: 23px;
+  }
+  .pay__link{
+    font-size: 17px;
+  }
+  .pay__link--more{
+    margin: 0 auto;
+  }
+  .review__content{
+    width: 100%;
+  }
+  .header__post{
+    padding-bottom: 50px;
+  }
+  .header__h1{
+    padding-top: 50px;
+  }
+  .review__footer{
+    width: 100%;
+  }
+  .review__image{
+    margin: 0 auto;
+    display: block;
+  }
+}
